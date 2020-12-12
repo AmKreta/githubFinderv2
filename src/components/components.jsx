@@ -6,7 +6,7 @@ import ThemeContext from './theme.context';
 
 import Header from './header/header.component';
 import Main from './main/Main.component';
-import Footer from './footer/footer.component';
+//import Footer from './footer/footer.component';
 const Components = () => {
     const [activePage, setActivePage] = useState('Home');
     const [activeProfile, setActiveProfile] = useState(null);

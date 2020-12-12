@@ -15,7 +15,7 @@ const Intro = () => {
     let cardsData = [
         { img: Search, text: 'you can search for any github profile' },
         { img: Profile, text: 'have a look at your favorite profiles without logging in into github' },
-        { img: Repositeries, text: 'track performances of different progiles' }
+        { img: Repositeries, text: 'track performances of different profiles' }
     ];
     return (
         <React.Fragment>
