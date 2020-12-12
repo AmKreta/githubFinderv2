@@ -1,0 +1,32 @@
+.introCards {
+    height: 88%;
+    width: 15%;
+    background: lighten(#cf830a, 10%);
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .introImage {
+        height: 40%;
+    }
+
+    .introText {
+        max-height: 60%;
+        width: 100%;
+        overflow: hidden;
+        color: lighten(#fae3dd,25%);
+        line-height:1.5em;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &.xl {
+        height: 98%;
+        width: 16%;
+        background: #cf830a;
+    }
+}

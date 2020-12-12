@@ -1,0 +1,8 @@
+.logo{
+    height:3vw;
+    width:3vw;
+    color:lighten(#a86d5b,60%);
+    &:hover{
+        cursor:pointer;
+    }
+}

@@ -1,0 +1,33 @@
+.navigationBar {
+    position: relative;
+    background: white;
+    padding-right: 2vw;
+    border: 1px solid white;
+
+    &:focus,
+    &:active {
+        outline: 1px solid blue;
+    }
+
+    .searchIcon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 2vw;
+        width: 2vw;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .searchInput {
+        font-size: 1.1em;
+        border: none;
+        border-right: 1px solid #cf830a;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
